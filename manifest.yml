@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: haneda0628
+  host: haneda0628
+  disk_quota: 1024M
+  services:
+  - haneda0628-cloudantNoSQLDB
